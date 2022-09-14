@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .styleNavbg{
+    background: #343a40;
+} 
+
+.sabores:hover{
+    filter: opacity(50%);
+}
+/* historia */
+.principal{
+    background-image: url(../img/font_formule_frances_gris.jpg);
+    object-fit: center;
+    overflow: hidden;
+}
+
+
+ @media all and (max-width: 576px){
+   .slader-responsive{ 
+    object-fit: cover;
+   height: 230px;
+
+}
+
+.center{
+        text-align: center;
+    }
+} 
